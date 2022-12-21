@@ -30,6 +30,8 @@ yarn workshop start MyNewIntegrationProject
   - [Create Mock Context](#create-mock-context)
   - [Mocking Contracts](#mocking-contracts)
   - [Mocking HTTP Calls](#mocking-http-calls)
+- [FAQ](#faq)
+  - [Incorrect or Missing Token Details](#incorrect-or-missing-token-details)
 
 ## Headers
 
@@ -401,3 +403,15 @@ describe("Utils", () => {
   });
 });
 ```
+
+# FAQ
+
+## Incorrect or Missing Token Details
+
+### Missing Tokens
+
+If the token you are using appears to be missing and not available for use, try waiting a few minutes as our system will attempt to automatically resolve any details. Usually this shouldn't take more than a minute or two, but in some cases could take much longer. If its still unavailable, please [open an issue](https://github.com/defiyield-app/defiyield-workshop/issues/new?assignees=&labels=i%3A+bug%2C+i%3A+needs+triage&template=token-bugs.md&title=Missing%20Token:)
+
+### Incorrect Token
+
+If a token has incorrect information such as wrong decimals, wrong price, wrong underlying tokens, etc, The simplest solution here is to [open an issue](https://github.com/defiyield-app/defiyield-workshop/issues/new?assignees=&labels=i%3A+bug%2C+i%3A+needs+triage&template=token-bugs.md&title=Incorrect%20Token:)
